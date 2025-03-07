@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
 
     <script src="script.js" defer></script>
     <title>Project: Etch-a-Sketch</title>
 </head>
 <body>
-    <div class="container">
-        
-    </div>
+    <main>
+        <form id="gridForm">
+            <input type="number" id="gridSize" placeholder="2-100" title="Enter a number between 2 and 100" min="2" max="100" required />
+            <button type="submit">Make a grid</button>
+        </form>
+        <div id="globalGrid">
+
+        </div>
+    </main>
 </body>
 </html>
